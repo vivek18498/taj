@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+<title>Taj Mahal</title>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.container {
+  position: relative;
+  font-family: Arial;
+}
+
+.text-block {
+  position: absolute;
+  top: 1px;
+  right: 15px;
+  width:30px;
+  height:30px;
+  background-color: green;
+  color: white;
+  padding-left: 15px;
+  padding-right: 10px;
+  padding-bottom:10px;
+}
+.text-block1{
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  width:50px;
+  height:50px;
+  background-color:black;
+  color: white;
+  opacity:0.5;
+  padding-left: 15px;
+  padding-right: 20px;
+  
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 33%;
+  padding: 10px 20px;
+}
+
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 400px) {
+  .column {
+    width: 50%;
+    display: block;
+    margin-bottom: 50px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0);
+  padding: 10px;
+  text-align: center;
+  background-color: #ffffff;
+}
+hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: .5px;
+  border-color:blue;
+} 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+<div class="w3-sidebar w3-light-grey w3-bar-block" style="width:15%">
+ 
+  <h3 class="w3-bar-item"><font color="red"><b>Themes</b></font></h3>
+ <strong>Holiday Themes</strong>
+
+<form action="/action_page.php">
+  <sub>
+  <input type="checkbox" name="place1" value="Bike"> Hill Stations<br>
+  <input type="checkbox" name="place2" value="Car">Beaches<br>
+  <input type="checkbox" name="place3" value="Boat" checked> Trekkings<br>
+  <input type="checkbox" name="place4" value="Bike"> Road Trips<br>
+ <input type="checkbox" name="place5" value="Bike"> Honeymoon<br>
+ <input type="checkbox" name="place6" value="Bike"> Adventure<br>
+ <input type="checkbox" name="place7" value="Bike"> Wlidlife<br>
+ <input type="checkbox" name="place8" value="Bike"> Water Activities<br>
+ <input type="checkbox" name="place9" value="Bike"> Nature<br>
+   <input type="checkbox" name="place10" value="Bike"> Deserts<br>
+  <input type="checkbox" name="place11" value="Bike"> Heritage<br><br></sub>
+
+ 
+</form>
+  <hr>
+  <h3 class="w3-bar-item"><font color="red"><b>Region</b></font></h3>
+  <h3>
+    Across Country<br>North India<br>South India<br>East India<br>West India<br>Central India<br>
+    North-East<br>International
+  </h3>
+  <hr>
+  <h3 class="w3-bar-item"><font color="red"><b>Activities</b></font></h3>
+  <h3>Water Sports
+Trekking
+Snow Sport
+Extreme Sports
+Adventures
+
+  </h3>
+    <hr>
+  <h3 class="w3-bar-item"><font color="red"><b>Best time to visit</b></font></h3>
+  <h3>Jan, Feb, March
+April, May, June
+July, August, Sep
+Oct, Nov, Dec
+
+  </h3>
+    <hr>
+  <h3 class="w3-bar-item"><font color="red"><b>Popularity</b></font></h3>
+  <h3>Must Visit
+Your call
+
+
+  </h3>
+   <hr>
+  <h3 class="w3-bar-item"><font color="red"><b>Places</b></font></h3>
+  <h3>Goa
+Delhi
+Manali
+Simla
+Kashmir
+Chennai
+Hyderabad
+Mumbai
+Pune
+Kerala
+Andaman
+Rajasthan
+Ladakh
+Uttrakhand
+Karnatka
+  </h3>
+  <hr>
+  <h3 class="w3-bar-item"><font color="red"><b>Budget Per Person(in Rs.)</b></font></h3>
+ 
+<form action="/action_page.php">
+  <sub>
+  <input type="checkbox" name="cost1" value="travel"> Less Than 5,000<br>
+  <input type="checkbox" name="cost2" value="travel">5,000-10,000<br>
+  <input type="checkbox" name="cost3" value="travel" checked> 10,000-15,000<br>
+ <input type="checkbox" name="cost4" value="travel"> 15,000-20,000<br>
+   <input type="checkbox" name="cost5" value="travel"> 20,000-25,000<br>
+   <input type="checkbox" name="cost6" value="travel"> 25,000-30,000<br>
+  <input type="checkbox" name="cost7" value="travel"> 30,000-55,000<br>
+   <input type="checkbox" name="cost8" value="travel"> Above 55,000<br><br></sub>
+
+  <hr>
+   <h3 class="w3-bar-item"><font color="red"><b>Days</b></font></h3>
+ 
+
+<form action="/action_page.php">
+  <sub>
+  <input type="checkbox" name="day1" value="dura"> 0-2 Days<br>
+  <input type="checkbox" name="day2" value="dura">3-5 Days<br>
+  <input type="checkbox" name="day3" value="dura" checked> 6-9 Days<br>
+   <input type="checkbox" name="day4" value="dur"> 10-13 Days<br>
+    <input type="checkbox" name="day5" value="dura"> 14-17 Days<br>
+     <input type="checkbox" name="day6" value="dura"> 18+ Days<br><br></sub>
+</div>
+
+
+
+
+<div style="margin-left:15%">
+
+<div class="w3-container w3-teal">
+
+</div>
+
+
+<h1 align="center"><font color="red"><b>Welcome To V-Tourism</b></font></h1>
+<div class="w3-container">
+
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+  <div class="card" style="width: 22rem;">
+  <div class="card-body">
+    <h6 class="card-title"><b>1. Agra,Uttar Pradesh</b></h6>
+
+ <div class="text-center">
+   <div class="container">
+   <img src="taj.jpg" class="hey" alt="Norway" style="width:100%">
+   <div class="text-block">
+    <small>4</small>
+  </div>
+  
+  <div class="text.block1">
+    <a href="https://www.google.com/search?q=taj+mahal&rlz=1C1CHBF_enIN820IN820&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiQ7o3CksvjAhWKA3IKHdL1CQcQ_AUIEigC&biw=1536&bih=722" ><i class="material-icons">&#xe439;</i></a>
+  </div>
+</div>
+</div>
+
+  <p align="left"><small>210 kms from delhi</small></p>
+  <p align="left"><small>Current Weather &#9788; 12-21&#176;C</small></p>
+  <p align="left" class="card-text"><small><b>Known for : </b><a href="https://en.wikipedia.org/wiki/Taj_Mahal">Taj Mahal |</a><a href="https://en.wikipedia.org/wiki/Fatehpur_Sikri"> Fatehpur Sikri |</a> <a href="https://en.wikipedia.org/wiki/Agra_Fort">Agra Fort</a></small></p>
+    <p align="left" class="card-text"><small>Home to the 7 wonders of the world.Taj Mahal,Agra is a sneak peak into the architectural history with other structures such as Agra fort and Fateshpu Sikri and hence makes for a must visit for anyone living in or visiting India.</small></p>
+     <p align="left"><small>Best Time:October to March</small></p>
+    <a href="https://en.wikipedia.org/wiki/Taj_Mahal" class="btn btn-primary"><small>Read More</small></a> &nbsp &nbsp <a href="https://www.google.com/search?client=firefox-b-d&ei=8NQ2XeTmB9KA9QPYkKWQDg&q=18+destination+places+in+india&oq=18+destination+&gs_l=psy-ab.1.0.35i39j0j0i22i30l8.5476.8915..11407...0.0..3.1273.4571.1j6j2j1j0j1j1j1......0....1..gws-wiz.......0i71j0i20i263.u9wpPRFhz9E" class="btn btn-primary"><small>18 Agra Attraction</<small></small></a>
+  </div>
+</div>
+<div>
+</div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="card" style="width: 22rem;">
+  <div class="card-body">
+    <h6 class="card-title"><b>1. Agra,Uttar Pradesh</b></h6>
+
+ <div class="text-center">
+   <div class="container">
+   <img src="taj.jpg" class="hey" alt="Norway" style="width:100%">
+   <div class="text-block">
+    <small>4</small>
+  </div>
+  <div class="text.block1">
+    <a href="https://www.google.com/search?q=taj+mahal&rlz=1C1CHBF_enIN820IN820&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiQ7o3CksvjAhWKA3IKHdL1CQcQ_AUIEigC&biw=1536&bih=722" ><i class="material-icons">&#xe439;</i></a>
+  </div>
+</div>
+</div>
+  <p align="left"><small>210 kms from delhi</small></p>
+  <p align="left"><small>Current Weather &#9788; 12-21&#176;C</small></p>
+  <p align="left" class="card-text"><small><b>Known for : </b><a href="https://en.wikipedia.org/wiki/Taj_Mahal">Taj Mahal |</a><a href="https://en.wikipedia.org/wiki/Fatehpur_Sikri"> Fatehpur Sikri |</a> <a href="https://en.wikipedia.org/wiki/Agra_Fort">Agra Fort</a></small></p>
+    <p align="left" class="card-text"><small>Home to the 7 wonders of the world.Taj Mahal,Agra is a sneak peak into the architectural history with other structures such as Agra fort and Fateshpu Sikri and hence makes for a must visit for anyone living in or visiting India.</small></p>
+    <p align="left"><small>Best Time:October to March</small></p>
+    <a href="https://en.wikipedia.org/wiki/Taj_Mahal" class="btn btn-primary"><small>Read More</small></a> &nbsp &nbsp <a href="https://www.google.com/search?client=firefox-b-d&ei=8NQ2XeTmB9KA9QPYkKWQDg&q=18+destination+places+in+india&oq=18+destination+&gs_l=psy-ab.1.0.35i39j0j0i22i30l8.5476.8915..11407...0.0..3.1273.4571.1j6j2j1j0j1j1j1......0....1..gws-wiz.......0i71j0i20i263.u9wpPRFhz9E" class="btn btn-primary"><small>18 Agra Attraction</<small></small></a>
+  </div>
+</div>
+<div>
+</div>
+    </div>
+  </div>
+  
+
+  <div class="column">
+    <div class="card">
+<div class="card" style="width: 22rem;">
+  <div class="card-body">
+    <h6 class="card-title"><b>1. Agra,Uttar Pradesh</b></h6>
+
+ <div class="text-center">
+  <div class="container">
+   <img src="taj.jpg" class="hey" alt="Norway" style="width:100%">
+   <div class="text-block">
+    <small>4</small>
+  </div>
+  <div class="text.block1">
+    <a href="https://www.google.com/search?q=taj+mahal&rlz=1C1CHBF_enIN820IN820&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiQ7o3CksvjAhWKA3IKHdL1CQcQ_AUIEigC&biw=1536&bih=722" ><i class="material-icons">&#xe439;</i></a>
+  </div>
+</div>
+</div>
+  <p align="left"><small>210 kms from delhi</small></p>
+  <p align="left"><small>Current Weather &#9788; 12-21&#176;C</small></p>
+  <p align="left" class="card-text"><small><b>Known for : </b><a href="https://en.wikipedia.org/wiki/Taj_Mahal">Taj Mahal |</a><a href="https://en.wikipedia.org/wiki/Fatehpur_Sikri"> Fatehpur Sikri |</a> <a href="https://en.wikipedia.org/wiki/Agra_Fort">Agra Fort</a></small></p>
+    <p align="left" class="card-text"><small>Home to the 7 wonders of the world.Taj Mahal,Agra is a sneak peak into the architectural history with other structures such as Agra fort and Fateshpu Sikri and hence makes for a must visit for anyone living in or visiting India.</small></p>
+    <p align="left"><small>Best Time:October to March</small></p>
+    <a href="https://en.wikipedia.org/wiki/Taj_Mahal" class="btn btn-primary"><small>Read More</small></a> &nbsp &nbsp <a href="https://www.google.com/search?client=firefox-b-d&ei=8NQ2XeTmB9KA9QPYkKWQDg&q=18+destination+places+in+india&oq=18+destination+&gs_l=psy-ab.1.0.35i39j0j0i22i30l8.5476.8915..11407...0.0..3.1273.4571.1j6j2j1j0j1j1j1......0....1..gws-wiz.......0i71j0i20i263.u9wpPRFhz9E" class="btn btn-primary"><small>18 Agra Attraction</<small></small></a>  </div>
+</div>
+<div>
+</div>
+    </div>
+  </div>
+</div>
+</br>
+
+
+  <div class="column">
+    <div class="card">
+     <div class="card" style="width: 22rem;">
+  <div class="card-body">
+    <h6 class="card-title"><b>1. Agra,Uttar Pradesh</b></h6>
+
+ <div class="text-center">
+   <div class="container">
+   <img src="taj.jpg" class="hey" alt="Norway" style="width:100%">
+   <div class="text-block">
+    <small>4</small>
+  </div>
+  <div class="text.block1">
+    <a href="https://www.google.com/search?q=taj+mahal&rlz=1C1CHBF_enIN820IN820&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiQ7o3CksvjAhWKA3IKHdL1CQcQ_AUIEigC&biw=1536&bih=722" ><i class="material-icons">&#xe439;</i></a>
+  </div>
+</div>
+</div>
+  <p align="left"><small>210 kms from delhi</small></p>
+  <p align="left"><small>Current Weather &#9788; 12-21&#176;C</small></p>
+  <p align="left" class="card-text"><small><b>Known for : </b><a href="https://en.wikipedia.org/wiki/Taj_Mahal">Taj Mahal |</a><a href="https://en.wikipedia.org/wiki/Fatehpur_Sikri"> Fatehpur Sikri |</a> <a href="https://en.wikipedia.org/wiki/Agra_Fort">Agra Fort</a></small></p>
+    <p align="left" class="card-text"><small>Home to the 7 wonders of the world.Taj Mahal,Agra is a sneak peak into the architectural history with other structures such as Agra fort and Fateshpu Sikri and hence makes for a must visit for anyone living in or visiting India.</small></p>
+    <p align="left"><small>Best Time:October to March</small></p>
+    <a href="https://en.wikipedia.org/wiki/Taj_Mahal" class="btn btn-primary"><small>Read More</small></a> &nbsp &nbsp <a href="https://www.google.com/search?client=firefox-b-d&ei=8NQ2XeTmB9KA9QPYkKWQDg&q=18+destination+places+in+india&oq=18+destination+&gs_l=psy-ab.1.0.35i39j0j0i22i30l8.5476.8915..11407...0.0..3.1273.4571.1j6j2j1j0j1j1j1......0....1..gws-wiz.......0i71j0i20i263.u9wpPRFhz9E" class="btn btn-primary"><small>18 Agra Attraction</<small></small></a>  </div>
+</div>
+<div>
+</div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+    <div class="card" style="width: 22rem;">
+  <div class="card-body">
+    <h6 class="card-title"><b>1. Agra,Uttar Pradesh</b></h6>
+
+ <div class="text-center">
+   <div class="container">
+   <img src="taj.jpg" class="hey" alt="Norway" style="width:100%">
+   <div class="text-block">
+    <small>4</small>
+  </div>
+  <div class="text.block1">
+    <a href="https://www.google.com/search?q=taj+mahal&rlz=1C1CHBF_enIN820IN820&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiQ7o3CksvjAhWKA3IKHdL1CQcQ_AUIEigC&biw=1536&bih=722" ><i class="material-icons">&#xe439;</i></a>
+  </div>
+</div>
+</div>
+<p align="left"><small>210 kms from delhi</small></p>
+  <p align="left"><small>Current Weather &#9788; 12-21&#176;C</small></p>
+  <p align="left" class="card-text"><small><b>Known for : </b><a href="https://en.wikipedia.org/wiki/Taj_Mahal">Taj Mahal |</a><a href="https://en.wikipedia.org/wiki/Fatehpur_Sikri"> Fatehpur Sikri |</a> <a href="https://en.wikipedia.org/wiki/Agra_Fort">Agra Fort</a></small></p>
+    <p align="left" class="card-text"><small>Home to the 7 wonders of the world.Taj Mahal,Agra is a sneak peak into the architectural history with other structures such as Agra fort and Fateshpu Sikri and hence makes for a must visit for anyone living in or visiting India.</small></p>
+    <p align="left"><small>Best Time:October to March</small></p>
+    <a href="https://en.wikipedia.org/wiki/Taj_Mahal" class="btn btn-primary"><small>Read More</small></a> &nbsp &nbsp <a href="https://www.google.com/search?client=firefox-b-d&ei=8NQ2XeTmB9KA9QPYkKWQDg&q=18+destination+places+in+india&oq=18+destination+&gs_l=psy-ab.1.0.35i39j0j0i22i30l8.5476.8915..11407...0.0..3.1273.4571.1j6j2j1j0j1j1j1......0....1..gws-wiz.......0i71j0i20i263.u9wpPRFhz9E" class="btn btn-primary"><small>18 Agra Attraction</<small></small></a>  </div>
+</div>
+<div>
+</div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+    <div class="card" style="width: 22rem;">
+  <div class="card-body">
+    <h6 class="card-title"><b>1. Agra,Uttar Pradesh</b></h6>
+
+ <div class="text-center">
+   <div class="container">
+   <img src="taj.jpg" class="hey" alt="Norway" style="width:100%">
+   <div class="text-block">
+    <small>4</small>
+  </div>
+  <div class="text.block1">
+    <a href="https://www.google.com/search?q=taj+mahal&rlz=1C1CHBF_enIN820IN820&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiQ7o3CksvjAhWKA3IKHdL1CQcQ_AUIEigC&biw=1536&bih=722" ><i class="material-icons">&#xe439;</i></a>
+  </div>
+</div>
+</div>
+<p align="left"><small>210 kms from delhi</small></p>
+  <p align="left"><small>Current Weather &#9788; 12-21&#176;C</small></p>
+  <p align="left" class="card-text"><small><b>Known for : </b><a href="https://en.wikipedia.org/wiki/Taj_Mahal">Taj Mahal |</a><a href="https://en.wikipedia.org/wiki/Fatehpur_Sikri"> Fatehpur Sikri |</a> <a href="https://en.wikipedia.org/wiki/Agra_Fort">Agra Fort</a></small></p>
+    <p align="left" class="card-text"><small>Home to the 7 wonders of the world.Taj Mahal,Agra is a sneak peak into the architectural history with other structures such as Agra fort and Fateshpu Sikri and hence makes for a must visit for anyone living in or visiting India.</small></p>
+    <p align="left"><small>Best Time:October to March</small></p>
+    <a href="https://en.wikipedia.org/wiki/Taj_Mahal" class="btn btn-primary"><small>Read More</small></a> &nbsp &nbsp <a href="https://www.google.com/search?client=firefox-b-d&ei=8NQ2XeTmB9KA9QPYkKWQDg&q=18+destination+places+in+india&oq=18+destination+&gs_l=psy-ab.1.0.35i39j0j0i22i30l8.5476.8915..11407...0.0..3.1273.4571.1j6j2j1j0j1j1j1......0....1..gws-wiz.......0i71j0i20i263.u9wpPRFhz9E" class="btn btn-primary"><small>18 Agra Attraction</<small></small></a>  </div>
+</div>
+<div>
+</div>
+    </div>
+  </div>
+</div>
+
+
+</div>
+</div>
+</body>
+</html>
